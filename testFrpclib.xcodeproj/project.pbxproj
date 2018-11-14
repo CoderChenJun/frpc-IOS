@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -220,7 +220,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1000;
-				ORGANIZATIONNAME = "任楚伊";
+				ORGANIZATIONNAME = yuanyl;
 				TargetAttributes = {
 					BA473E8021702F7D0068AAEB = {
 						CreatedOnToolsVersion = 10.0;
@@ -235,8 +235,8 @@
 					};
 				};
 			};
-			buildConfigurationList = BA473E7C21702F7D0068AAEB /* Build configuration list for PBXProject "testFrpclib" */;
-			compatibilityVersion = "Xcode 9.3";
+			buildConfigurationList = BA473E7C21702F7D0068AAEB /* Build configuration list for PBXProject "frpc" */;
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -462,7 +462,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 74KHR7835B;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -492,7 +492,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 74KHR7835B;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -594,7 +594,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BA473E7C21702F7D0068AAEB /* Build configuration list for PBXProject "testFrpclib" */ = {
+		BA473E7C21702F7D0068AAEB /* Build configuration list for PBXProject "frpc" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BA473EAB21702F800068AAEB /* Debug */,
