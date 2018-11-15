@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BA473E8121702F7D0068AAEB /* testFrpclib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testFrpclib.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA473E8121702F7D0068AAEB /* Frpc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Frpc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA473E8421702F7D0068AAEB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BA473E8521702F7D0068AAEB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		BA473E8721702F7D0068AAEB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -47,10 +47,10 @@
 		BA473E9021702F800068AAEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA473E9221702F800068AAEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA473E9321702F800068AAEB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		BA473E9921702F800068AAEB /* testFrpclibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testFrpclibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA473E9921702F800068AAEB /* FrpcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FrpcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA473E9D21702F800068AAEB /* testFrpclibTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testFrpclibTests.m; sourceTree = "<group>"; };
 		BA473E9F21702F800068AAEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BA473EA421702F800068AAEB /* testFrpclibUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testFrpclibUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA473EA421702F800068AAEB /* FrpcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FrpcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA473EA821702F800068AAEB /* testFrpclibUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testFrpclibUITests.m; sourceTree = "<group>"; };
 		BA473EAA21702F800068AAEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA473EBB217033040068AAEB /* config.ini */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = config.ini; sourceTree = "<group>"; };
@@ -87,9 +87,9 @@
 		BA473E7821702F7D0068AAEB = {
 			isa = PBXGroup;
 			children = (
-				BA473E8321702F7D0068AAEB /* testFrpclib */,
-				BA473E9C21702F800068AAEB /* testFrpclibTests */,
-				BA473EA721702F800068AAEB /* testFrpclibUITests */,
+				BA473E8321702F7D0068AAEB /* Frpc */,
+				BA473E9C21702F800068AAEB /* FrpcTests */,
+				BA473EA721702F800068AAEB /* FrpcUITests */,
 				BA473E8221702F7D0068AAEB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -97,14 +97,14 @@
 		BA473E8221702F7D0068AAEB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BA473E8121702F7D0068AAEB /* testFrpclib.app */,
-				BA473E9921702F800068AAEB /* testFrpclibTests.xctest */,
-				BA473EA421702F800068AAEB /* testFrpclibUITests.xctest */,
+				BA473E8121702F7D0068AAEB /* Frpc.app */,
+				BA473E9921702F800068AAEB /* FrpcTests.xctest */,
+				BA473EA421702F800068AAEB /* FrpcUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BA473E8321702F7D0068AAEB /* testFrpclib */ = {
+		BA473E8321702F7D0068AAEB /* Frpc */ = {
 			isa = PBXGroup;
 			children = (
 				BA473EBA217032E60068AAEB /* ConfigResource */,
@@ -120,25 +120,25 @@
 				BA473E9221702F800068AAEB /* Info.plist */,
 				BA473E9321702F800068AAEB /* main.m */,
 			);
-			path = testFrpclib;
+			path = Frpc;
 			sourceTree = "<group>";
 		};
-		BA473E9C21702F800068AAEB /* testFrpclibTests */ = {
+		BA473E9C21702F800068AAEB /* FrpcTests */ = {
 			isa = PBXGroup;
 			children = (
 				BA473E9D21702F800068AAEB /* testFrpclibTests.m */,
 				BA473E9F21702F800068AAEB /* Info.plist */,
 			);
-			path = testFrpclibTests;
+			path = FrpcTests;
 			sourceTree = "<group>";
 		};
-		BA473EA721702F800068AAEB /* testFrpclibUITests */ = {
+		BA473EA721702F800068AAEB /* FrpcUITests */ = {
 			isa = PBXGroup;
 			children = (
 				BA473EA821702F800068AAEB /* testFrpclibUITests.m */,
 				BA473EAA21702F800068AAEB /* Info.plist */,
 			);
-			path = testFrpclibUITests;
+			path = FrpcUITests;
 			sourceTree = "<group>";
 		};
 		BA473EB72170319A0068AAEB /* Framework */ = {
@@ -160,9 +160,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BA473E8021702F7D0068AAEB /* testFrpclib */ = {
+		BA473E8021702F7D0068AAEB /* Frpc */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BA473EAD21702F800068AAEB /* Build configuration list for PBXNativeTarget "testFrpclib" */;
+			buildConfigurationList = BA473EAD21702F800068AAEB /* Build configuration list for PBXNativeTarget "Frpc" */;
 			buildPhases = (
 				BA473E7D21702F7D0068AAEB /* Sources */,
 				BA473E7E21702F7D0068AAEB /* Frameworks */,
@@ -172,14 +172,14 @@
 			);
 			dependencies = (
 			);
-			name = testFrpclib;
+			name = Frpc;
 			productName = testFrpclib;
-			productReference = BA473E8121702F7D0068AAEB /* testFrpclib.app */;
+			productReference = BA473E8121702F7D0068AAEB /* Frpc.app */;
 			productType = "com.apple.product-type.application";
 		};
-		BA473E9821702F800068AAEB /* testFrpclibTests */ = {
+		BA473E9821702F800068AAEB /* FrpcTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BA473EB021702F800068AAEB /* Build configuration list for PBXNativeTarget "testFrpclibTests" */;
+			buildConfigurationList = BA473EB021702F800068AAEB /* Build configuration list for PBXNativeTarget "FrpcTests" */;
 			buildPhases = (
 				BA473E9521702F800068AAEB /* Sources */,
 				BA473E9621702F800068AAEB /* Frameworks */,
@@ -190,14 +190,14 @@
 			dependencies = (
 				BA473E9B21702F800068AAEB /* PBXTargetDependency */,
 			);
-			name = testFrpclibTests;
+			name = FrpcTests;
 			productName = testFrpclibTests;
-			productReference = BA473E9921702F800068AAEB /* testFrpclibTests.xctest */;
+			productReference = BA473E9921702F800068AAEB /* FrpcTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		BA473EA321702F800068AAEB /* testFrpclibUITests */ = {
+		BA473EA321702F800068AAEB /* FrpcUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BA473EB321702F800068AAEB /* Build configuration list for PBXNativeTarget "testFrpclibUITests" */;
+			buildConfigurationList = BA473EB321702F800068AAEB /* Build configuration list for PBXNativeTarget "FrpcUITests" */;
 			buildPhases = (
 				BA473EA021702F800068AAEB /* Sources */,
 				BA473EA121702F800068AAEB /* Frameworks */,
@@ -208,9 +208,9 @@
 			dependencies = (
 				BA473EA621702F800068AAEB /* PBXTargetDependency */,
 			);
-			name = testFrpclibUITests;
+			name = FrpcUITests;
 			productName = testFrpclibUITests;
-			productReference = BA473EA421702F800068AAEB /* testFrpclibUITests.xctest */;
+			productReference = BA473EA421702F800068AAEB /* FrpcUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -235,7 +235,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BA473E7C21702F7D0068AAEB /* Build configuration list for PBXProject "testFrpclib" */;
+			buildConfigurationList = BA473E7C21702F7D0068AAEB /* Build configuration list for PBXProject "Frpc" */;
 			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -248,9 +248,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BA473E8021702F7D0068AAEB /* testFrpclib */,
-				BA473E9821702F800068AAEB /* testFrpclibTests */,
-				BA473EA321702F800068AAEB /* testFrpclibUITests */,
+				BA473E8021702F7D0068AAEB /* Frpc */,
+				BA473E9821702F800068AAEB /* FrpcTests */,
+				BA473EA321702F800068AAEB /* FrpcUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -315,12 +315,12 @@
 /* Begin PBXTargetDependency section */
 		BA473E9B21702F800068AAEB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BA473E8021702F7D0068AAEB /* testFrpclib */;
+			target = BA473E8021702F7D0068AAEB /* Frpc */;
 			targetProxy = BA473E9A21702F800068AAEB /* PBXContainerItemProxy */;
 		};
 		BA473EA621702F800068AAEB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BA473E8021702F7D0068AAEB /* testFrpclib */;
+			target = BA473E8021702F7D0068AAEB /* Frpc */;
 			targetProxy = BA473EA521702F800068AAEB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -467,24 +467,24 @@
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/testFrpclib/Framework",
+					"$(PROJECT_DIR)/Frpc/Framework",
 					"$(PROJECT_DIR)",
 				);
-				GCC_PREFIX_HEADER = "$(SRCROOT)/testFrpclib/PrefixHeader.pch";
-				INFOPLIST_FILE = testFrpclib/Info.plist;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Frpc/PrefixHeader.pch";
+				INFOPLIST_FILE = Frpc/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/testFrpclib/Framework/Frpclib.framework/Versions/A",
-					"$(PROJECT_DIR)/testFrpclib/Framework/Frpclib.framework",
+					"$(PROJECT_DIR)/Frpc/Framework/Frpclib.framework/Versions/A",
+					"$(PROJECT_DIR)/Frpc/Framework/Frpclib.framework",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.rcy.testFrpclib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rcy.Frpc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/testFrpclib/Framework/Frpclib.framework/Versions/A/Headers\"";
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/Frpc/Framework/Frpclib.framework/Versions/A/Headers\"";
 			};
 			name = Debug;
 		};
@@ -498,24 +498,24 @@
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/testFrpclib/Framework",
+					"$(PROJECT_DIR)/Frpc/Framework",
 					"$(PROJECT_DIR)",
 				);
-				GCC_PREFIX_HEADER = "$(SRCROOT)/testFrpclib/PrefixHeader.pch";
-				INFOPLIST_FILE = testFrpclib/Info.plist;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Frpc/PrefixHeader.pch";
+				INFOPLIST_FILE = Frpc/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/testFrpclib/Framework/Frpclib.framework/Versions/A",
-					"$(PROJECT_DIR)/testFrpclib/Framework/Frpclib.framework",
+					"$(PROJECT_DIR)/Frpc/Framework/Frpclib.framework/Versions/A",
+					"$(PROJECT_DIR)/Frpc/Framework/Frpclib.framework",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.rcy.testFrpclib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rcy.Frpc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/testFrpclib/Framework/Frpclib.framework/Versions/A/Headers\"";
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/Frpc/Framework/Frpclib.framework/Versions/A/Headers\"";
 			};
 			name = Release;
 		};
@@ -534,7 +534,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.rcy.testFrpclibTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testFrpclib.app/testFrpclib";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Frpc.app/Frpc";
 			};
 			name = Debug;
 		};
@@ -553,7 +553,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.rcy.testFrpclibTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testFrpclib.app/testFrpclib";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Frpc.app/Frpc";
 			};
 			name = Release;
 		};
@@ -596,7 +596,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BA473E7C21702F7D0068AAEB /* Build configuration list for PBXProject "testFrpclib" */ = {
+		BA473E7C21702F7D0068AAEB /* Build configuration list for PBXProject "Frpc" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BA473EAB21702F800068AAEB /* Debug */,
@@ -605,7 +605,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BA473EAD21702F800068AAEB /* Build configuration list for PBXNativeTarget "testFrpclib" */ = {
+		BA473EAD21702F800068AAEB /* Build configuration list for PBXNativeTarget "Frpc" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BA473EAE21702F800068AAEB /* Debug */,
@@ -614,7 +614,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BA473EB021702F800068AAEB /* Build configuration list for PBXNativeTarget "testFrpclibTests" */ = {
+		BA473EB021702F800068AAEB /* Build configuration list for PBXNativeTarget "FrpcTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BA473EB121702F800068AAEB /* Debug */,
@@ -623,7 +623,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BA473EB321702F800068AAEB /* Build configuration list for PBXNativeTarget "testFrpclibUITests" */ = {
+		BA473EB321702F800068AAEB /* Build configuration list for PBXNativeTarget "FrpcUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BA473EB421702F800068AAEB /* Debug */,
