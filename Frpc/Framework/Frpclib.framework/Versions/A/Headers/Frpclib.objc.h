@@ -10,9 +10,6 @@
 #include "Universe.objc.h"
 
 
-// skipped function HandleSignal with unsupported parameter or return types
-
-
-FOUNDATION_EXPORT void FrpclibRun(NSString* confFile);
+FOUNDATION_EXPORT void FrpclibRun(NSString* cfgFilePath);
 
 #endif
