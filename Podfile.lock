@@ -1,0 +1,42 @@
+PODS:
+  - AFNetworking (3.2.0):
+    - AFNetworking/NSURLSession (= 3.2.0)
+    - AFNetworking/Reachability (= 3.2.0)
+    - AFNetworking/Security (= 3.2.0)
+    - AFNetworking/Serialization (= 3.2.0)
+    - AFNetworking/UIKit (= 3.2.0)
+  - AFNetworking/NSURLSession (3.2.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.0)
+  - AFNetworking/Security (3.2.0)
+  - AFNetworking/Serialization (3.2.0)
+  - AFNetworking/UIKit (3.2.0):
+    - AFNetworking/NSURLSession
+  - BRPickerView (2.1.1):
+    - MJExtension (~> 3.0.13)
+  - IQKeyboardManager (5.0.8)
+  - MJExtension (3.0.13)
+
+DEPENDENCIES:
+  - AFNetworking
+  - BRPickerView
+  - IQKeyboardManager
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - BRPickerView
+    - IQKeyboardManager
+    - MJExtension
+
+SPEC CHECKSUMS:
+  AFNetworking: 8ac6017b94ea105479f7776e5288e48ae9c59bb4
+  BRPickerView: 80115d3efba0905b447263c313fec0f4435e1bfb
+  IQKeyboardManager: 266cb7b1d11f94a3e71229d77f960f9a1b538e5b
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
+
+PODFILE CHECKSUM: 70bf7f1934bb2b12c87f942659177bedcd0df7da
+
+COCOAPODS: 1.5.3
