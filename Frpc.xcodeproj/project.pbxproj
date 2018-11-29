@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA12EFB521AE966900772CC2 /* ChannelListController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA12EFB321AE966900772CC2 /* ChannelListController.m */; };
+		BA12EFB621AE966900772CC2 /* ChannelListController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA12EFB421AE966900772CC2 /* ChannelListController.xib */; };
 		BA473E8621702F7D0068AAEB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA473E8521702F7D0068AAEB /* AppDelegate.m */; };
 		BA473E8921702F7D0068AAEB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA473E8821702F7D0068AAEB /* ViewController.m */; };
 		BA473E8C21702F7D0068AAEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA473E8A21702F7D0068AAEB /* Main.storyboard */; };
@@ -17,6 +19,14 @@
 		BA473EA921702F800068AAEB /* testFrpclibUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA473EA821702F800068AAEB /* testFrpclibUITests.m */; };
 		BA473EBC217033040068AAEB /* config.ini in Resources */ = {isa = PBXBuildFile; fileRef = BA473EBB217033040068AAEB /* config.ini */; };
 		BA473EDA21703B590068AAEB /* Frpclib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA473ED921703B590068AAEB /* Frpclib.framework */; };
+		BA83488521AE30AE00F7D959 /* ChooseServerController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA83488321AE30AE00F7D959 /* ChooseServerController.m */; };
+		BA83488621AE30AE00F7D959 /* ChooseServerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA83488421AE30AE00F7D959 /* ChooseServerController.xib */; };
+		BA83488A21AE30DE00F7D959 /* AddServerController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA83488821AE30DE00F7D959 /* AddServerController.m */; };
+		BA83488B21AE30DE00F7D959 /* AddServerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA83488921AE30DE00F7D959 /* AddServerController.xib */; };
+		BAA9691621AE3B4D0056A770 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA9691521AE3B4D0056A770 /* BaseViewController.m */; };
+		BAA9691A21AE808B0056A770 /* ConfigChannelController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA9691821AE808B0056A770 /* ConfigChannelController.m */; };
+		BAA9691B21AE808B0056A770 /* ConfigChannelController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAA9691921AE808B0056A770 /* ConfigChannelController.xib */; };
+		EB4731E5A9119AD3F1CFE0E2 /* libPods-Frpc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 368F5CA3AA543AE457ED8297 /* libPods-Frpc.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +47,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		368F5CA3AA543AE457ED8297 /* libPods-Frpc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Frpc.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A85E151597D1CB780E49AA1D /* Pods-Frpc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Frpc.release.xcconfig"; path = "Pods/Target Support Files/Pods-Frpc/Pods-Frpc.release.xcconfig"; sourceTree = "<group>"; };
+		BA12EFB221AE966900772CC2 /* ChannelListController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChannelListController.h; sourceTree = "<group>"; };
+		BA12EFB321AE966900772CC2 /* ChannelListController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChannelListController.m; sourceTree = "<group>"; };
+		BA12EFB421AE966900772CC2 /* ChannelListController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChannelListController.xib; sourceTree = "<group>"; };
 		BA473E8121702F7D0068AAEB /* Frpc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Frpc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA473E8421702F7D0068AAEB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BA473E8521702F7D0068AAEB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -56,6 +71,18 @@
 		BA473EBB217033040068AAEB /* config.ini */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = config.ini; sourceTree = "<group>"; };
 		BA473ED921703B590068AAEB /* Frpclib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Frpclib.framework; sourceTree = "<group>"; };
 		BA473EDB21703D920068AAEB /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		BA83488221AE30AE00F7D959 /* ChooseServerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChooseServerController.h; sourceTree = "<group>"; };
+		BA83488321AE30AE00F7D959 /* ChooseServerController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChooseServerController.m; sourceTree = "<group>"; };
+		BA83488421AE30AE00F7D959 /* ChooseServerController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChooseServerController.xib; sourceTree = "<group>"; };
+		BA83488721AE30DE00F7D959 /* AddServerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddServerController.h; sourceTree = "<group>"; };
+		BA83488821AE30DE00F7D959 /* AddServerController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddServerController.m; sourceTree = "<group>"; };
+		BA83488921AE30DE00F7D959 /* AddServerController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddServerController.xib; sourceTree = "<group>"; };
+		BAA9691421AE3B4D0056A770 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		BAA9691521AE3B4D0056A770 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		BAA9691721AE808B0056A770 /* ConfigChannelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConfigChannelController.h; sourceTree = "<group>"; };
+		BAA9691821AE808B0056A770 /* ConfigChannelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConfigChannelController.m; sourceTree = "<group>"; };
+		BAA9691921AE808B0056A770 /* ConfigChannelController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConfigChannelController.xib; sourceTree = "<group>"; };
+		F814877557035A033999762C /* Pods-Frpc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Frpc.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Frpc/Pods-Frpc.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +91,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA473EDA21703B590068AAEB /* Frpclib.framework in Frameworks */,
+				EB4731E5A9119AD3F1CFE0E2 /* libPods-Frpc.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +119,8 @@
 				BA473E9C21702F800068AAEB /* FrpcTests */,
 				BA473EA721702F800068AAEB /* FrpcUITests */,
 				BA473E8221702F7D0068AAEB /* Products */,
+				F5236AE5DE986ADDDE660491 /* Pods */,
+				D9A4A2AAE63FAB01B5448197 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -111,6 +141,20 @@
 				BA473EB72170319A0068AAEB /* Framework */,
 				BA473E8421702F7D0068AAEB /* AppDelegate.h */,
 				BA473E8521702F7D0068AAEB /* AppDelegate.m */,
+				BAA9691421AE3B4D0056A770 /* BaseViewController.h */,
+				BAA9691521AE3B4D0056A770 /* BaseViewController.m */,
+				BA83488221AE30AE00F7D959 /* ChooseServerController.h */,
+				BA83488321AE30AE00F7D959 /* ChooseServerController.m */,
+				BA83488421AE30AE00F7D959 /* ChooseServerController.xib */,
+				BA83488721AE30DE00F7D959 /* AddServerController.h */,
+				BA83488821AE30DE00F7D959 /* AddServerController.m */,
+				BA83488921AE30DE00F7D959 /* AddServerController.xib */,
+				BAA9691721AE808B0056A770 /* ConfigChannelController.h */,
+				BAA9691821AE808B0056A770 /* ConfigChannelController.m */,
+				BAA9691921AE808B0056A770 /* ConfigChannelController.xib */,
+				BA12EFB221AE966900772CC2 /* ChannelListController.h */,
+				BA12EFB321AE966900772CC2 /* ChannelListController.m */,
+				BA12EFB421AE966900772CC2 /* ChannelListController.xib */,
 				BA473E8721702F7D0068AAEB /* ViewController.h */,
 				BA473E8821702F7D0068AAEB /* ViewController.m */,
 				BA473EDB21703D920068AAEB /* PrefixHeader.pch */,
@@ -157,6 +201,23 @@
 			path = ConfigResource;
 			sourceTree = "<group>";
 		};
+		D9A4A2AAE63FAB01B5448197 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				368F5CA3AA543AE457ED8297 /* libPods-Frpc.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F5236AE5DE986ADDDE660491 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F814877557035A033999762C /* Pods-Frpc.debug.xcconfig */,
+				A85E151597D1CB780E49AA1D /* Pods-Frpc.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -164,9 +225,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BA473EAD21702F800068AAEB /* Build configuration list for PBXNativeTarget "Frpc" */;
 			buildPhases = (
+				1FFC7B030B53672E53B06CCA /* [CP] Check Pods Manifest.lock */,
 				BA473E7D21702F7D0068AAEB /* Sources */,
 				BA473E7E21702F7D0068AAEB /* Frameworks */,
 				BA473E7F21702F7D0068AAEB /* Resources */,
+				D5385676F2F049B21398324C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -261,9 +324,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA473E9121702F800068AAEB /* LaunchScreen.storyboard in Resources */,
+				BAA9691B21AE808B0056A770 /* ConfigChannelController.xib in Resources */,
 				BA473E8E21702F800068AAEB /* Assets.xcassets in Resources */,
+				BA12EFB621AE966900772CC2 /* ChannelListController.xib in Resources */,
+				BA83488B21AE30DE00F7D959 /* AddServerController.xib in Resources */,
 				BA473E8C21702F7D0068AAEB /* Main.storyboard in Resources */,
 				BA473EBC217033040068AAEB /* config.ini in Resources */,
+				BA83488621AE30AE00F7D959 /* ChooseServerController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,14 +350,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1FFC7B030B53672E53B06CCA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Frpc-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5385676F2F049B21398324C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Frpc/Pods-Frpc-resources.sh",
+				"${PODS_ROOT}/BRPickerView/BRPickerView/AddressPickerView/BRPickerView.bundle",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/BRPickerView.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Frpc/Pods-Frpc-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BA473E7D21702F7D0068AAEB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				BA473E8921702F7D0068AAEB /* ViewController.m in Sources */,
+				BAA9691621AE3B4D0056A770 /* BaseViewController.m in Sources */,
+				BAA9691A21AE808B0056A770 /* ConfigChannelController.m in Sources */,
+				BA12EFB521AE966900772CC2 /* ChannelListController.m in Sources */,
+				BA83488A21AE30DE00F7D959 /* AddServerController.m in Sources */,
 				BA473E9421702F800068AAEB /* main.m in Sources */,
 				BA473E8621702F7D0068AAEB /* AppDelegate.m in Sources */,
+				BA83488521AE30AE00F7D959 /* ChooseServerController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,11 +580,11 @@
 		};
 		BA473EAE21702F800068AAEB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F814877557035A033999762C /* Pods-Frpc.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = V7G9674FHJ;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -490,11 +611,11 @@
 		};
 		BA473EAF21702F800068AAEB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A85E151597D1CB780E49AA1D /* Pods-Frpc.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = V7G9674FHJ;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
