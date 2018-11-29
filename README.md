@@ -10,7 +10,7 @@ QQ交流群 [222670265](https://jq.qq.com/?_wv=1027&k=5kkmkwa)
 
 * xcode ≥ 9.x
 * go ≥ 1.10.x
-* [编译动态库](https://github.com/FrpcCluster/frpc-IOS/Compile_zh.md)
+* [编译动态库](https://github.com/FrpcCluster/frpc-IOS/blob/master/Compile_zh.md)
 
 ## 项目 demo 大概简要图
 
