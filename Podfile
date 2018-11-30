@@ -12,4 +12,6 @@ pod 'BRPickerView'
 pod 'AFNetworking'
 
 pod 'IQKeyboardManager'
+
+pod 'FMDB'
 end
