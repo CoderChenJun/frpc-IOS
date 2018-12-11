@@ -23,6 +23,7 @@
 		BA83488621AE30AE00F7D959 /* ChooseServerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA83488421AE30AE00F7D959 /* ChooseServerController.xib */; };
 		BA83488A21AE30DE00F7D959 /* AddServerController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA83488821AE30DE00F7D959 /* AddServerController.m */; };
 		BA83488B21AE30DE00F7D959 /* AddServerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA83488921AE30DE00F7D959 /* AddServerController.xib */; };
+		BA94E49F21B0DC810001279F /* ConfigData.m in Sources */ = {isa = PBXBuildFile; fileRef = BA94E49E21B0DC810001279F /* ConfigData.m */; };
 		BAA9691621AE3B4D0056A770 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA9691521AE3B4D0056A770 /* BaseViewController.m */; };
 		BAA9691A21AE808B0056A770 /* ConfigChannelController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA9691821AE808B0056A770 /* ConfigChannelController.m */; };
 		BAA9691B21AE808B0056A770 /* ConfigChannelController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAA9691921AE808B0056A770 /* ConfigChannelController.xib */; };
@@ -77,6 +78,8 @@
 		BA83488721AE30DE00F7D959 /* AddServerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddServerController.h; sourceTree = "<group>"; };
 		BA83488821AE30DE00F7D959 /* AddServerController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddServerController.m; sourceTree = "<group>"; };
 		BA83488921AE30DE00F7D959 /* AddServerController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddServerController.xib; sourceTree = "<group>"; };
+		BA94E49D21B0DC810001279F /* ConfigData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConfigData.h; sourceTree = "<group>"; };
+		BA94E49E21B0DC810001279F /* ConfigData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConfigData.m; sourceTree = "<group>"; };
 		BAA9691421AE3B4D0056A770 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		BAA9691521AE3B4D0056A770 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		BAA9691721AE808B0056A770 /* ConfigChannelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConfigChannelController.h; sourceTree = "<group>"; };
@@ -197,6 +200,8 @@
 			isa = PBXGroup;
 			children = (
 				BA473EBB217033040068AAEB /* config.ini */,
+				BA94E49D21B0DC810001279F /* ConfigData.h */,
+				BA94E49E21B0DC810001279F /* ConfigData.m */,
 			);
 			path = ConfigResource;
 			sourceTree = "<group>";
@@ -410,6 +415,7 @@
 				BA12EFB521AE966900772CC2 /* ChannelListController.m in Sources */,
 				BA83488A21AE30DE00F7D959 /* AddServerController.m in Sources */,
 				BA473E9421702F800068AAEB /* main.m in Sources */,
+				BA94E49F21B0DC810001279F /* ConfigData.m in Sources */,
 				BA473E8621702F7D0068AAEB /* AppDelegate.m in Sources */,
 				BA83488521AE30AE00F7D959 /* ChooseServerController.m in Sources */,
 			);
